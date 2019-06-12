@@ -10,10 +10,10 @@ singleuser:
     name: gcr.io/pupster900/io
     tag: latest
   # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
-  lifecycleHooks:
-    postStart:
-      exec:
-        command: ["sh","-c","rm -rf Welcome_to_io_Hub && git clone https://github.com/pupster90/Welcome_to_io_Hub.git"]
+  #lifecycleHooks:
+  #  postStart:
+  #    exec:
+  #      command: ["sh","-c","rm -rf Welcome_to_io_Hub && git clone https://github.com/pupster90/Welcome_to_io_Hub.git"]
   # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-storage.html
   # NOTE: I couldn't get this working, will try later
   #storage:
