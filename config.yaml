@@ -7,8 +7,8 @@ proxy:
 singleuser:
   # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
   image:
-    name: gcr.io/pupster900/io
-    tag: latest
+    name: jupyter/datascience-notebook
+    tag: 177037d09156
   # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
   #lifecycleHooks:
   #  postStart:
